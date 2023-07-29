@@ -4,6 +4,7 @@ import styles from '../styles/homepage.module.css'
 
 export default function Homepage() {
 
+    console.log(process.env.AUTH0_ISSUER_BASE_URL);
     
     return(
     <div className={styles.body}>
