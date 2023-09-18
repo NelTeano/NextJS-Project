@@ -5,12 +5,36 @@
 
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    height: 40px;
-    background-color: aqua;
+    height: 80px;
+    background-color: white;
 }
 
+
+.rightTabs{
+    margin-right: 60px; 
+}
+.rightTabs a{
+    padding: 12px;
+    border-radius: 12px;
+}
+.rightTabs a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.6s;
+}
+
+
+.logoTab{
+    margin-left: 80px;
+}
+
+.logoTab a{
+    font-size: 25px;
+    font-weight: 700;
+}
 
 
 
